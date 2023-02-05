@@ -65,7 +65,7 @@ describe('getCoinCombination', () => {
       .toEqual([0, 0, 0, 1]);;
   });
 
-  it('negative case: if input is empty string, should return NaN', () => {
+  it('negative case: if input is empty, should return NaN', () => {
     expect(getCoinCombination())
       .toEqual([NaN, NaN, NaN, NaN]);;
   });
